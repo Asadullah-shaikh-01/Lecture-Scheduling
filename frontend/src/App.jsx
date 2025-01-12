@@ -24,7 +24,7 @@ const App = () => {
       Component: AdminPanel, // Parent route needs to render an Outlet here
       children: [
         {
-          path: "",
+          path: "course",Component: AddCourse,
           children: [
             { path: "add-course", Component: AddCourse },
             { path: "all-course", Component: AllCourse },
