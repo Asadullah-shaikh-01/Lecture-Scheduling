@@ -1,0 +1,42 @@
+/* Sidebar Styles */
+.sidebar {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 250px;
+    padding-top: 20px;
+    transition: all 0.3s ease;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .sidebar-link {
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .sidebar-link:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Main Content Section */
+  .col-md-9 {
+    margin-left: 250px;
+    padding-top: 20px;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Collapse Styling */
+  .collapse ul li {
+    padding-left: 20px;
+  }
+  
+  /* Sidebar active state */
+  .sidebar .collapse.show {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  

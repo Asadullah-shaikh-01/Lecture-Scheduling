@@ -1,0 +1,26 @@
+html, body {
+    height: 100%; /* Ensures the full height for body */
+  }
+  
+  body {
+    margin: 0; /* Removes default margin */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .d-flex {
+    display: flex;
+  }
+  
+  .flex-column {
+    flex-direction: column;
+  }
+  
+  .min-vh-100 {
+    min-height: 100vh; /* Ensures the container takes up the full height of the viewport */
+  }
+  
+  .flex-grow-1 {
+    flex-grow: 1; /* Pushes the footer to the bottom */
+  }
+  
